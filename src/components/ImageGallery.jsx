@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Menu from '../components/Menu';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-
 const ImageGallery = () => {
 
   const [items, setItems] = useState(Menu);
@@ -38,8 +37,7 @@ const ImageGallery = () => {
                 items.map((elem) => {
                   const {id, name, image, category, price, description} = elem;
                   return(
-                    <>
-                      <div className='item1 col-12 col-md-6 col-lg-4 col-xl-4 my-5'>
+                      <div className='item1 col-12 col-md-6 col-lg-4 col-xl-4 my-5' key={id}>
                         <div className='row item-inside'>
                           {/*Item image col*/}
                           <div className='col-12 col-md-12 col-lg-4 img-div'>
@@ -62,13 +60,10 @@ const ImageGallery = () => {
                             <p>*Price may vary on selected date.</p>
                           </div>
                         </div>
-                      </div>
-                    </>
-                  )
+                      </div> 
+                  );
                 })
               }         
-
-
               </div>
             </div>
           </div>
