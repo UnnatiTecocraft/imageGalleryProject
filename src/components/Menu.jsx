@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Menu = [
     {
         id: 1,
-        image: "Images/maggi3.jpg",
+        image: `${process.env.PUBLIC_URL}/images/maggi3.jpg`,
         name: "Maggi",
         category: "breakfast",
         price: "12₹",
@@ -11,7 +9,7 @@ const Menu = [
     },
     {
         id: 2,
-        image: "Images/pakoda.jpg",
+        image: `${process.env.PUBLIC_URL}/images/pakoda.jpg`,
         name: "Pakoda",
         category: "evening",
         price: "20₹",
@@ -19,7 +17,7 @@ const Menu = [
     },
     {
         id: 3,
-        image: "Images/corn.jpg",
+        image: `${process.env.PUBLIC_URL}/images/corn.jpg`,
         name: "Corn",
         category: "breakfast",
         price: "15₹",
@@ -27,7 +25,7 @@ const Menu = [
     },
     {
         id: 4,
-        image: "Images/chole.jpg",
+        image: `${process.env.PUBLIC_URL}/images/chole.jpg`,
         name: "Chole Bhature",
         category: "lunch",
         price: "50₹",
@@ -35,7 +33,7 @@ const Menu = [
     },
     {
         id: 5,
-        image: "Images/pizza2.jpg",
+        image: `${process.env.PUBLIC_URL}/images/pizza2.jpg`,
         name: "Pizza",
         category: "dinner",
         price: "100₹",
@@ -43,7 +41,7 @@ const Menu = [
     },
     {
         id: 6,
-        image: "Images/non-veg-thali.jpg",
+        image: `${process.env.PUBLIC_URL}/images/non-veg-thali.jpg`,
         name: "Non-Veg Thali",
         category: "dinner",
         price: "180₹",
@@ -51,7 +49,7 @@ const Menu = [
     },
     {
         id: 7,
-        image: "Images/sweets.jpg",
+        image: `${process.env.PUBLIC_URL}/images/sweets.jpg`,
         name: "Sweets",
         category: "dinner",
         price: "60₹",
@@ -59,7 +57,7 @@ const Menu = [
     },
     {
         id: 8,
-        image: "Images/rajma-chawal.jpg",
+        image: `${process.env.PUBLIC_URL}/images/rajma-chawal.jpg`,
         name: "Rajma Chawal",
         category: "lunch",
         price: "80₹",
@@ -67,12 +65,12 @@ const Menu = [
     },
     {
         id: 9,
-        image: "Images/samosa.jpg",
+        image: `${process.env.PUBLIC_URL}/images/samosa.jpg`,
         name: "Samosa",
         category: "evening",
         price: "20₹",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },    
+    },
 ];
 
 export default Menu;

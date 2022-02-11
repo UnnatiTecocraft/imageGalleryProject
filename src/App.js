@@ -1,12 +1,8 @@
-import React from 'react'
-import ImageGallery from './components/ImageGallery';
+import React from "react";
+import ImageGallery from "./components/ImageGallery";
 
 const App = () => {
-  return (
-    <>
-      <ImageGallery/>
-    </>
-  )
-}
+    return <ImageGallery />;
+};
 
 export default App;
